@@ -1,0 +1,53 @@
+<html>
+    <title>University Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: pink;
+        }
+        h2 { 
+            text-align: center; 
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h2> Annamcharya University Registration</h2>
+<form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <input type="contact number" placeholder="Contact Number"required>
+    <select required>
+        <option value="">Select Course</option>
+        <option value="cs">Computer Science</option>
+        <option value="ele">Electrical</option>
+        <option value="ece">Electronics</option>
+    </select>
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>
